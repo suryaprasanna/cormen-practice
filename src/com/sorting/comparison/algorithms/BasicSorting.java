@@ -8,7 +8,10 @@ import com.util.CormenUtil;
 public class BasicSorting {
 
 	public static void main (String [] args) throws IOException {
-		
+		System.out.println("Insertion sort demo");
+		insertionSort();
+		System.out.println("Selection Sort demo:");
+		selectionSort();
 	}
 	
 	public static void selectionSort() throws IOException {
